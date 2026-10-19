@@ -1,0 +1,99 @@
+.nav-bar {
+    font-size: 30px;
+    margin: 20px;
+}
+.nav-hom-srch {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#home-icon {
+    font-size: 22px;
+    margin-left: 40px;
+    background-color: rgb(64, 48, 48);
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+#txt-box {
+    flex: 1;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 30px;
+    width: 420px;
+    background: transparent;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 40px;
+  width: 500px;
+  padding: 0 15px;
+  border: 2px solid #777;
+  border-radius: 30px;
+  display: flex;
+  left: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  width: 100%;
+  background: transparent;
+  padding: 12px 12px 12px 45px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.search-box i {
+  margin-right: 15px;
+  flex-shrink: 0;
+  font-size: 20px;
+}
+.divider {
+  height: 28px;
+  width: 1px;
+  background: #777;
+  position: absolute;
+  left: 430px;
+  background-color: rgb(123, 82, 82);
+  margin: 0 15px;
+}
+#dwnld {
+    display:inline-block;
+    justify-content: space-between;
+    position: relative;
+}
+#dwnld-icon {
+    font-size: 20px;
+    margin-left: 100px;
+    position: absolute;
+}
+p {
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 90px;
+    position: absolute;
+}
+#prf-icon {
+    height: 20px;
+    width: 40px;
+    font-size: 26px;
+    margin-left: 240px
+}
+#nav-bar-elements {
+    display: flex;
+}
+.browse-icon {
+    color: white;
+    cursor: pointer;
+}
+#fold-icon {
+    padding: 20px;
+    margin-left: 20px;
+}
